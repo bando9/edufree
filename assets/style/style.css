@@ -25,8 +25,12 @@
     margin: 0 auto;
 }
 
-section {
+section{
     padding: 100px 0;
+}
+
+footer {
+    padding: 6.25rem 3.1rem 0 0;
 }
 
 header {
@@ -240,6 +244,7 @@ svg {
     width: 30px;
 }
 
+/* Class recomendation */
 .container .class-title {
     max-width: 40%;
 }
@@ -258,6 +263,10 @@ svg {
     align-items: center;
 }
 
+.content-class {
+    gap: 1rem;
+}
+
 .tag-rating-contain {
     display: flex;
     justify-content: center;
@@ -267,7 +276,7 @@ svg {
     border-radius: 10px;
     width: 62px;
     height: 25px;
-    /* position: relative; */
+    position: relative;
     top: -30px;
     font-size: .8rem;
     right: -300px;
@@ -304,4 +313,79 @@ svg {
 
 .card-description {
     margin-bottom: 1rem;
+}
+/* Testimonial */
+#testimonial {
+    background-color: var(--thirdBackgroundColor);
+}
+
+.testimonial {
+    display: flex;
+    gap: 6.2rem;
+}
+
+.testimonial-left {
+    width: 100%;
+}
+
+.testimonial-left h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.testimonial-left p {
+    color: #282938;
+}
+
+.testimonial-right h1 {
+    font-weight: 500;
+    font-size: 1.625rem;
+    letter-spacing: .5%;
+    line-height: 1.4;
+    margin-bottom: 2.6rem;
+}
+
+.testi-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.person {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.person img {
+    width: 52px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.line-scroll {
+    display: flex;
+    gap: 13px;
+}
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #2405F2;
+    opacity: 40%;
+}
+
+.active-line {
+    opacity: 100%;
+}
+
+/* FAQ */
+#faq {
+    display: grid;
+    gap: 7rem;
+    grid-template-columns: .5fr 1.5fr;
+}
+
+
+.form-user {
+    background-color: var(--primaryBackgroundColor);
+    color: #fff;
+    padding: 2rem;
 }
